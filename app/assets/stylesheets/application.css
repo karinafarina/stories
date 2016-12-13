@@ -18,3 +18,9 @@
 body { 
 	font-family: 'Lora', serif;
 }
+
+#sidr {
+fill: rgb(0, 0, 0);
+    width: 24;
+    height: 4;
+}

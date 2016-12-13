@@ -1,9 +1,13 @@
 <head>
 	<meta name="viewport" content="width=device-width,minimum-scale=1">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css">
-</head>
-	
-<a id="menu" href="#sidr">Toggle menu</a>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css">
+  </head>
+  
+ <a id="simple-menu" href="#sidr">Toggle menu</a>
 
 <div id="sidr">
   <!-- Your content -->
@@ -14,9 +18,12 @@
   </ul>
 </div>
 
+
+	
 <div class="main">
 	<h1>Create and Share Stories</h1>
 		<div class="btn btn-primary">Learn more</div>
+  <%= link_to "About", about_path %> 
 </div>
 <div class="supporting">
   <h2>Share Your Experiences</h2>
@@ -32,3 +39,5 @@
 <div class="footer">
   <h3>A Shutterbug Project</h3>
 </div>
+ <script src="//cdn.jsdelivr.net/jquery/2.2.0/jquery.min.js"></script>
+ <script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
